@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    padding-top: 5px;
+    padding-inline: 15px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.name_div {
+    text-align: center;
+}
+
+.logo_image {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.logo_div {
+    text-align: center;
+}
+
+.logo_text {
+    margin-top: 5px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+    outline: solid;
+    outline-color: black;
+    outline-width: 1px;
+    border-top: 1px solid black;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav a, aside a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+nav a:hover {
+    background-color: rgb(241, 156, 247);
+    border-radius: 50px;
+}
+nav a:active {
+    background-color: rgb(238, 41, 252);
+    border-radius: 50px;
+}
+aside {
+    display: flex;
+    flex-direction: column;    
+    outline: solid;
+    outline-color: black;
+    outline-width: 1px;
+    width: 20%;
+    height: auto;
+    padding-inline: 15px;
+    
+}
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.main_content {
+    outline: solid;
+    outline-color: black;
+    outline-width: 1px;
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-around;
+
+}
+
+.ne_pridumal {
+    margin-top: 30px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.three_cat {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.car_1, .car_2, .car_3 {
+    width: 200px;
+    height: 200px;
+}
+
+.content_2 {
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.content_2_1 {
+    margin-top: 30px;
+}
+
+.content_3 {
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-bottom: 2%;
+}
+
+.footer_all {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+.img_2, .img_3 {
+    height: 30px;
+    width: 30px;
+}
+
+.footer_text {
+    text-align: center;
+}
+
+.footer_img {
+    text-align: right;
+    margin-right: 15px;
+}
+
+.div_car_1, .div_car_2, .div_car_3 {
+    width: 204px;
+    height: 100%;
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.div_car_1:hover, .div_car_2:hover, .div_car_3:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.front_marg {
+    margin-top: 30px;
+}
+
+footer {
+    border-top: 2px solid black;
+}
+
+.button {
+    margin-top: 10%;
+    align-self: flex-end;
+    background-color: skyblue;
+    color: black;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.button:hover {
+    background-color: rgb(241, 156, 247);
+}
+
+select {
+    font-size: 0.9rem;
+    padding: 2px 5px;
+}
+
+
+
+

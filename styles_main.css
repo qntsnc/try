@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    padding-top: 5px;
+    padding-inline: 15px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.name_div {
+    text-align: center;
+}
+
+.logo_image {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.logo_div {
+    place-self: center;
+
+}
+
+.logo_text {
+    margin-top: 5px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+    outline: solid;
+    outline-color: black;
+    outline-width: 1px;
+    border-top: 1px solid black;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav a, aside a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+nav a:hover {
+    background-color: rgb(241, 156, 247);
+    border-radius: 50px;
+}
+nav a:active {
+    background-color: rgb(238, 41, 252);
+    border-radius: 50px;
+}
+aside {
+    display: flex;
+    flex-direction: column;    
+    outline: solid;
+    outline-color: black;
+    outline-width: 1px;
+    width: 20%;
+    height: auto;
+    padding-inline: 15px;
+    
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.main_content {
+    outline: solid;
+    outline-color: black;
+    outline-width: 1px;
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-around;
+
+}
+
+.ne_pridumal {
+    margin-top: 30px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_1 {
+    height: 300px;
+    width: 300px;
+    border: 15px , solid, bisque;
+    border-radius: 10%;
+}
+
+.content_1 {
+    
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.content_2 {
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.content_2_1 {
+    margin-top: 30px;
+}
+
+.content_3 {
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-bottom: 2%;
+}
+
+.footer_all {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+.img_2 {
+    height: 30px;
+    width: 30px;
+}
+
+.img_3 {
+    height: 30px;
+    width: 30px;
+}
+
+.footer_text {
+    text-align: center;
+}
+
+.footer_img {
+    text-align: right;
+    margin-right: 15px;
+}
+
+footer {
+    border-top: 2px solid black;
+}
+
+.front_txt {
+    margin-top: 30px;
+}
